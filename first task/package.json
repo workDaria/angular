@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@tinkoff/eslint-config": "^1.52.1",
+    "@tinkoff/eslint-config-angular": "^1.53.2"
+  }
+}
