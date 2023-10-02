@@ -3,7 +3,8 @@ import {
   TuiSvgModule, 
   TuiLabelModule, 
   TuiTextfieldControllerModule, 
-  TuiButtonModule 
+  TuiButtonModule,
+  TuiLinkModule
 } from "@taiga-ui/core";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from '@angular/core';
@@ -38,7 +39,8 @@ import {TuiToggleModule, TuiAvatarModule, TuiInputModule} from '@taiga-ui/kit';
       TuiLabelModule,
       TuiInputModule,
       TuiTextfieldControllerModule,
-      TuiButtonModule
+      TuiButtonModule,
+      TuiLinkModule
 ],
   providers: [],
   bootstrap: [AppComponent]
