@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {FormControl, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-courses',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./courses.component.less']
 })
 export class CoursesComponent {
-
+  value = '';
 }

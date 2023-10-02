@@ -1,5 +1,39 @@
 <!DOCTYPE html>
 
 <div class="container">
-    
+
+<div class="search">
+   <tui-input
+    tuiHintContent=""
+    tuiHintDirection="bottom-right"
+    tuiTextfieldIconLeft="tuiIconSearchLarge"
+    class="input"
+    [tuiTextfieldCleaner]="true"
+    [(ngModel)]="value"
+>
+Name, fragment or date
+</tui-input>
+
+<div  class="searchButton">
+<button
+    appearance="secondary"
+    tuiButton
+    type="button">
+    Search
+</button>
+</div>
+
+<div class="addButton">
+    <button
+    appearance="primary"
+    tuiButton
+    type="button"
+    class="tui-space_right-3 tui-space_bottom-3"
+>
+    + Add course
+</button>
+</div>
+
+</div>
+
 </div>

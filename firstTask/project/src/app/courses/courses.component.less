@@ -1,8 +1,26 @@
 .container {
-    display: flex;
-    width: 1152px;
+    width: 80%;
     padding: 32px 24px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
+    height: calc(100% - 200px - .35em);
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    background: #FFF;
+}
+
+.input {
+    width: 560px;
+    direction: ltr;
+    text-align: left;
+}
+
+.searchButton {
+    position: absolute; top: 32px; left: 600px;
+}
+
+.addButton {
+    position: absolute; top: 32px; right: 16px;
 }

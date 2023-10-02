@@ -1,4 +1,10 @@
-import { TuiRootModule, TuiSvgModule, TuiLabelModule } from "@taiga-ui/core";
+import { 
+  TuiRootModule, 
+  TuiSvgModule, 
+  TuiLabelModule, 
+  TuiTextfieldControllerModule, 
+  TuiButtonModule 
+} from "@taiga-ui/core";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -10,7 +16,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { FooterComponent } from './footer/footer.component';
 
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {TuiToggleModule, TuiAvatarModule} from '@taiga-ui/kit';
+import {TuiToggleModule, TuiAvatarModule, TuiInputModule} from '@taiga-ui/kit';
 
 @NgModule({
   declarations: [
@@ -29,7 +35,10 @@ import {TuiToggleModule, TuiAvatarModule} from '@taiga-ui/kit';
       TuiToggleModule,
       TuiAvatarModule,
       TuiSvgModule,
-      TuiLabelModule
+      TuiLabelModule,
+      TuiInputModule,
+      TuiTextfieldControllerModule,
+      TuiButtonModule
 ],
   providers: [],
   bootstrap: [AppComponent]
